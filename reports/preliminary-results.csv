@@ -1,0 +1,10 @@
+﻿status,output,bytes,jpeg_quality,duration_seconds,reasons
+REVIEW,output/benchmark/3fd065346d19461793603b5f15f756e1.jpg,49540,95,0.239041,"Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior; Unvalidated hair boundary: automated PASS disabled in Phase 1"
+REVIEW,output/benchmark/e4149423eaef4ad19419dc8079f8f7db.jpg,35371,95,0.241917,"Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior; Unvalidated hair boundary: automated PASS disabled in Phase 1"
+REVIEW,output/benchmark/18b18b89b4004676a16674727c6708ee.jpg,51114,95,0.200812,"Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior; Unvalidated hair boundary: automated PASS disabled in Phase 1"
+REVIEW,output/benchmark/757277254e104353924d49e780275011.jpg,38908,95,0.066096,"Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior; Unvalidated hair boundary: automated PASS disabled in Phase 1"
+REVIEW,,,,1.317661,Expected exactly one frontal face; Head cannot be located; manual rectangle required
+REVIEW,output/benchmark/ec201133cf9e4d1e99c6236f2af11164.jpg,29367,95,0.223412,"Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior; Unvalidated hair boundary: automated PASS disabled in Phase 1"
+REVIEW,,,,0.018459,Expected exactly one frontal face; Head cannot be located; manual rectangle required
+REVIEW,output/benchmark/e0ff5660f39c4376902ebb3956bc3b55.jpg,21528,95,0.050107,"Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior; Unvalidated hair boundary: automated PASS disabled in Phase 1"
+FAIL,,,,0.015526,Input or processing error (UnidentifiedImageError)

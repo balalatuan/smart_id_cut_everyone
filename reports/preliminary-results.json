@@ -1,0 +1,408 @@
+[
+  {
+    "fixture": "astronaut",
+    "wall_seconds": 0.23914360800000622,
+    "cpu_seconds": 0.2400000000000002,
+    "status": "REVIEW",
+    "reasons": [
+      "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior",
+      "Unvalidated hair boundary: automated PASS disabled in Phase 1"
+    ],
+    "geometry": {
+      "faces": [
+        [
+          177,
+          66,
+          95,
+          95
+        ]
+      ],
+      "face_center": [
+        224.5,
+        113.5
+      ],
+      "estimated_head": [
+        155.15,
+        13.749999999999993,
+        293.85,
+        175.25
+      ],
+      "eyes": null,
+      "chin": null,
+      "orientation": null,
+      "hair_boundary_confidence": null,
+      "method": "opencv-haar-frontalface-default",
+      "warnings": [
+        "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior"
+      ]
+    },
+    "crop": [
+      142,
+      0,
+      307,
+      231
+    ],
+    "output": "output/benchmark/3fd065346d19461793603b5f15f756e1.jpg",
+    "preview": "output/benchmark/3fd065346d19461793603b5f15f756e1-preview.png",
+    "bytes": 49540,
+    "jpeg_quality": 95,
+    "duration_seconds": 0.239041,
+    "manual": false
+  },
+  {
+    "fixture": "dim",
+    "wall_seconds": 0.24200296999998727,
+    "cpu_seconds": 0.23999999999999977,
+    "status": "REVIEW",
+    "reasons": [
+      "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior",
+      "Unvalidated hair boundary: automated PASS disabled in Phase 1"
+    ],
+    "geometry": {
+      "faces": [
+        [
+          177,
+          66,
+          94,
+          94
+        ]
+      ],
+      "face_center": [
+        224.0,
+        113.0
+      ],
+      "estimated_head": [
+        155.38,
+        14.299999999999997,
+        292.62,
+        174.1
+      ],
+      "eyes": null,
+      "chin": null,
+      "orientation": null,
+      "hair_boundary_confidence": null,
+      "method": "opencv-haar-frontalface-default",
+      "warnings": [
+        "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior"
+      ]
+    },
+    "crop": [
+      142,
+      0,
+      306,
+      228
+    ],
+    "output": "output/benchmark/e4149423eaef4ad19419dc8079f8f7db.jpg",
+    "preview": "output/benchmark/e4149423eaef4ad19419dc8079f8f7db-preview.png",
+    "bytes": 35371,
+    "jpeg_quality": 95,
+    "duration_seconds": 0.241917,
+    "manual": false
+  },
+  {
+    "fixture": "bright",
+    "wall_seconds": 0.20089388799999597,
+    "cpu_seconds": 0.20000000000000018,
+    "status": "REVIEW",
+    "reasons": [
+      "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior",
+      "Unvalidated hair boundary: automated PASS disabled in Phase 1"
+    ],
+    "geometry": {
+      "faces": [
+        [
+          176,
+          67,
+          95,
+          95
+        ]
+      ],
+      "face_center": [
+        223.5,
+        114.5
+      ],
+      "estimated_head": [
+        154.15,
+        14.749999999999993,
+        292.85,
+        176.25
+      ],
+      "eyes": null,
+      "chin": null,
+      "orientation": null,
+      "hair_boundary_confidence": null,
+      "method": "opencv-haar-frontalface-default",
+      "warnings": [
+        "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior"
+      ]
+    },
+    "crop": [
+      141,
+      0,
+      306,
+      231
+    ],
+    "output": "output/benchmark/18b18b89b4004676a16674727c6708ee.jpg",
+    "preview": "output/benchmark/18b18b89b4004676a16674727c6708ee-preview.png",
+    "bytes": 51114,
+    "jpeg_quality": 95,
+    "duration_seconds": 0.200812,
+    "manual": false
+  },
+  {
+    "fixture": "small",
+    "wall_seconds": 0.06617751000004546,
+    "cpu_seconds": 0.06999999999999984,
+    "status": "REVIEW",
+    "reasons": [
+      "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior",
+      "Unvalidated hair boundary: automated PASS disabled in Phase 1"
+    ],
+    "geometry": {
+      "faces": [
+        [
+          86,
+          31,
+          53,
+          53
+        ]
+      ],
+      "face_center": [
+        112.5,
+        57.5
+      ],
+      "estimated_head": [
+        73.81,
+        1.8499999999999979,
+        151.19,
+        91.94999999999999
+      ],
+      "eyes": null,
+      "chin": null,
+      "orientation": null,
+      "hair_boundary_confidence": null,
+      "method": "opencv-haar-frontalface-default",
+      "warnings": [
+        "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior"
+      ]
+    },
+    "crop": [
+      67,
+      0,
+      158,
+      129
+    ],
+    "output": "output/benchmark/757277254e104353924d49e780275011.jpg",
+    "preview": "output/benchmark/757277254e104353924d49e780275011-preview.png",
+    "bytes": 38908,
+    "jpeg_quality": 95,
+    "duration_seconds": 0.066096,
+    "manual": false
+  },
+  {
+    "fixture": "large",
+    "wall_seconds": 1.3177499970000213,
+    "cpu_seconds": 1.33,
+    "status": "REVIEW",
+    "reasons": [
+      "Expected exactly one frontal face",
+      "Head cannot be located; manual rectangle required"
+    ],
+    "geometry": {
+      "faces": [
+        [
+          701,
+          259,
+          391,
+          391
+        ],
+        [
+          1678,
+          1729,
+          106,
+          106
+        ],
+        [
+          515,
+          1092,
+          92,
+          92
+        ]
+      ],
+      "face_center": null,
+      "estimated_head": null,
+      "eyes": null,
+      "chin": null,
+      "orientation": null,
+      "hair_boundary_confidence": null,
+      "method": "opencv-haar-frontalface-default",
+      "warnings": [
+        "Expected exactly one frontal face"
+      ]
+    },
+    "crop": null,
+    "output": null,
+    "preview": "output/benchmark/ba60c659badb4cc49a99a5eceb02c08e-preview.png",
+    "bytes": null,
+    "jpeg_quality": null,
+    "duration_seconds": 1.317661,
+    "manual": false
+  },
+  {
+    "fixture": "blurred",
+    "wall_seconds": 0.22351026800004092,
+    "cpu_seconds": 0.21999999999999975,
+    "status": "REVIEW",
+    "reasons": [
+      "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior",
+      "Unvalidated hair boundary: automated PASS disabled in Phase 1"
+    ],
+    "geometry": {
+      "faces": [
+        [
+          176,
+          66,
+          97,
+          97
+        ]
+      ],
+      "face_center": [
+        224.5,
+        114.5
+      ],
+      "estimated_head": [
+        153.69,
+        12.649999999999999,
+        295.31,
+        177.55
+      ],
+      "eyes": null,
+      "chin": null,
+      "orientation": null,
+      "hair_boundary_confidence": null,
+      "method": "opencv-haar-frontalface-default",
+      "warnings": [
+        "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior"
+      ]
+    },
+    "crop": [
+      140,
+      0,
+      309,
+      236
+    ],
+    "output": "output/benchmark/ec201133cf9e4d1e99c6236f2af11164.jpg",
+    "preview": "output/benchmark/ec201133cf9e4d1e99c6236f2af11164-preview.png",
+    "bytes": 29367,
+    "jpeg_quality": 95,
+    "duration_seconds": 0.223412,
+    "manual": false
+  },
+  {
+    "fixture": "blank",
+    "wall_seconds": 0.018542093999997178,
+    "cpu_seconds": 0.010000000000000675,
+    "status": "REVIEW",
+    "reasons": [
+      "Expected exactly one frontal face",
+      "Head cannot be located; manual rectangle required"
+    ],
+    "geometry": {
+      "faces": [],
+      "face_center": null,
+      "estimated_head": null,
+      "eyes": null,
+      "chin": null,
+      "orientation": null,
+      "hair_boundary_confidence": null,
+      "method": "opencv-haar-frontalface-default",
+      "warnings": [
+        "Expected exactly one frontal face"
+      ]
+    },
+    "crop": null,
+    "output": null,
+    "preview": "output/benchmark/16ae8d6d85f4468ea701eb022b830c2f-preview.png",
+    "bytes": null,
+    "jpeg_quality": null,
+    "duration_seconds": 0.018459,
+    "manual": false
+  },
+  {
+    "fixture": "synthetic",
+    "wall_seconds": 0.05019263100001581,
+    "cpu_seconds": 0.04999999999999982,
+    "status": "REVIEW",
+    "reasons": [
+      "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior",
+      "Unvalidated hair boundary: automated PASS disabled in Phase 1"
+    ],
+    "geometry": {
+      "faces": [
+        [
+          143,
+          130,
+          216,
+          216
+        ]
+      ],
+      "face_center": [
+        251.0,
+        238.0
+      ],
+      "estimated_head": [
+        93.32,
+        11.199999999999989,
+        408.68,
+        378.4
+      ],
+      "eyes": null,
+      "chin": null,
+      "orientation": null,
+      "hair_boundary_confidence": null,
+      "method": "opencv-haar-frontalface-default",
+      "warnings": [
+        "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior"
+      ]
+    },
+    "crop": [
+      64,
+      0,
+      438,
+      525
+    ],
+    "output": "output/benchmark/e0ff5660f39c4376902ebb3956bc3b55.jpg",
+    "preview": "output/benchmark/e0ff5660f39c4376902ebb3956bc3b55-preview.png",
+    "bytes": 21528,
+    "jpeg_quality": 95,
+    "duration_seconds": 0.050107,
+    "manual": false
+  },
+  {
+    "fixture": "malformed",
+    "wall_seconds": 0.015595914999948945,
+    "cpu_seconds": 0.019999999999999574,
+    "status": "FAIL",
+    "reasons": [
+      "Input or processing error (UnidentifiedImageError)"
+    ],
+    "geometry": {
+      "faces": [],
+      "face_center": null,
+      "estimated_head": null,
+      "eyes": null,
+      "chin": null,
+      "orientation": null,
+      "hair_boundary_confidence": null,
+      "method": "opencv-haar-frontalface-default",
+      "warnings": []
+    },
+    "crop": null,
+    "output": null,
+    "preview": null,
+    "bytes": null,
+    "jpeg_quality": null,
+    "duration_seconds": 0.015526,
+    "manual": false
+  }
+]

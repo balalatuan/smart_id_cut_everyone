@@ -1,0 +1,12 @@
+{
+  "local_http_status": 200,
+  "real_upload_and_processing": true,
+  "download_verified": true,
+  "blocked_remote_attempts": 0,
+  "test_scope": "Python socket connect/connect_ex guard; no browser packet capture",
+  "version": "0.2.0",
+  "status": "REVIEW",
+  "output_bytes": 49540,
+  "large_input_29mp_and_15kb_verified": true,
+  "large_case_output_bytes": 4603
+}

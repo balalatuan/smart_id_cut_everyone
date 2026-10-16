@@ -1,0 +1,278 @@
+{
+  "version": "0.2.0",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "worker_count": 1,
+  "sampling_interval_seconds": 0.005,
+  "available_ram_bytes_at_end": 8959025152,
+  "accuracy_validated": false,
+  "cases": [
+    {
+      "status": "REVIEW",
+      "reasons": [
+        "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior",
+        "Large input downsampled for processing: 4480 x 6536 -> 4055 x 5916; original preserved; crop coordinates remain in oriented source pixels",
+        "Unvalidated hair boundary: automated PASS disabled in Phase 1"
+      ],
+      "crop": [
+        1092,
+        182,
+        2848,
+        2643
+      ],
+      "geometry": {
+        "faces": [
+          [
+            1464,
+            937,
+            1012,
+            1013
+          ]
+        ],
+        "face_center": [
+          1969.8742293464857,
+          1443.4219066937121
+        ],
+        "estimated_head": [
+          1231.1106288532674,
+          379.6647058823529,
+          2708.6378298397044,
+          2101.9382691007436
+        ],
+        "eyes": null,
+        "chin": null,
+        "orientation": null,
+        "hair_boundary_confidence": null,
+        "method": "opencv-haar-frontalface-default",
+        "warnings": [
+          "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior"
+        ]
+      },
+      "image_info": {
+        "source_format": "JPEG",
+        "source_size": [
+          4480,
+          6536
+        ],
+        "oriented_source_size": [
+          4480,
+          6536
+        ],
+        "decoder_size": [
+          4480,
+          6536
+        ],
+        "working_size": [
+          4055,
+          5916
+        ],
+        "scale_x": 0.9051339285714286,
+        "scale_y": 0.905140758873929,
+        "downsampled": true,
+        "decoder_reduced": false,
+        "coordinate_space": "exif_oriented_source",
+        "preview_size": [
+          823,
+          1200
+        ]
+      },
+      "output_bytes": 48863,
+      "jpeg_quality": 95,
+      "wall_seconds": 2.095274094999695,
+      "source_preserved": true,
+      "manual_crop_used": false,
+      "engine_peak_sampled_rss_bytes": 369995776,
+      "same_rectangle_full_resolution_comparison": {
+        "mean_absolute_rgb_error_0_255": 0.774971604347229,
+        "mse": 1.4698184728622437,
+        "psnr_db": 46.458166595226615,
+        "identical_decoded_pixels": false,
+        "reference_jpeg_quality": 95,
+        "comparison_quality": 95,
+        "meaning": "Numerical resampling difference; not human quality or crop accuracy"
+      },
+      "peak_sampled_rss_bytes_including_reference_comparison": 369995776,
+      "process_high_water_rss_bytes_including_reference_comparison": 371453952,
+      "case": "synthetic_29mp_jpeg",
+      "fixture_provenance": "Public NASA astronaut image scaled solely for resource testing"
+    },
+    {
+      "status": "REVIEW",
+      "reasons": [
+        "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior",
+        "Large input downsampled for processing: 8000 x 5000 -> 6195 x 3872; original preserved; crop coordinates remain in oriented source pixels",
+        "Unvalidated hair boundary: automated PASS disabled in Phase 1"
+      ],
+      "crop": [
+        6440,
+        3950,
+        7039,
+        4790
+      ],
+      "geometry": {
+        "faces": [
+          [
+            6567,
+            4207,
+            346,
+            346
+          ]
+        ],
+        "face_center": [
+          6739.628732849072,
+          4380.165289256199
+        ],
+        "estimated_head": [
+          6486.986279257465,
+          4016.7871900826444,
+          6992.271186440678,
+          4605.113636363636
+        ],
+        "eyes": null,
+        "chin": null,
+        "orientation": null,
+        "hair_boundary_confidence": null,
+        "method": "opencv-haar-frontalface-default",
+        "warnings": [
+          "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior"
+        ]
+      },
+      "image_info": {
+        "source_format": "JPEG",
+        "source_size": [
+          8000,
+          5000
+        ],
+        "oriented_source_size": [
+          8000,
+          5000
+        ],
+        "decoder_size": [
+          8000,
+          5000
+        ],
+        "working_size": [
+          6195,
+          3872
+        ],
+        "scale_x": 0.774375,
+        "scale_y": 0.7744,
+        "downsampled": true,
+        "decoder_reduced": false,
+        "coordinate_space": "exif_oriented_source",
+        "preview_size": [
+          1200,
+          750
+        ]
+      },
+      "output_bytes": 25851,
+      "jpeg_quality": 95,
+      "wall_seconds": 2.1546387110010983,
+      "source_preserved": true,
+      "manual_crop_used": false,
+      "engine_peak_sampled_rss_bytes": 431013888,
+      "same_rectangle_full_resolution_comparison": {
+        "mean_absolute_rgb_error_0_255": 0.48727649450302124,
+        "mse": 0.705500602722168,
+        "psnr_db": 49.645829717516044,
+        "identical_decoded_pixels": false,
+        "reference_jpeg_quality": 95,
+        "comparison_quality": 95,
+        "meaning": "Numerical resampling difference; not human quality or crop accuracy"
+      },
+      "peak_sampled_rss_bytes_including_reference_comparison": 431013888,
+      "process_high_water_rss_bytes_including_reference_comparison": 431779840,
+      "case": "synthetic_40mp_jpeg",
+      "fixture_provenance": "Public NASA astronaut image scaled solely for resource testing"
+    },
+    {
+      "status": "REVIEW",
+      "reasons": [
+        "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior",
+        "Large input downsampled for processing: 8000 x 5000 -> 6195 x 3872; original preserved; crop coordinates remain in oriented source pixels",
+        "Unvalidated hair boundary: automated PASS disabled in Phase 1"
+      ],
+      "crop": [
+        6446,
+        3950,
+        7046,
+        4790
+      ],
+      "geometry": {
+        "faces": [
+          [
+            6573,
+            4207,
+            346,
+            346
+          ]
+        ],
+        "face_center": [
+          6746.085552865214,
+          4380.165289256199
+        ],
+        "estimated_head": [
+          6493.443099273607,
+          4016.7871900826444,
+          6998.72800645682,
+          4605.113636363636
+        ],
+        "eyes": null,
+        "chin": null,
+        "orientation": null,
+        "hair_boundary_confidence": null,
+        "method": "opencv-haar-frontalface-default",
+        "warnings": [
+          "Hair boundary, eyes, chin and orientation are unmeasured; head box is a prior"
+        ]
+      },
+      "image_info": {
+        "source_format": "PNG",
+        "source_size": [
+          8000,
+          5000
+        ],
+        "oriented_source_size": [
+          8000,
+          5000
+        ],
+        "decoder_size": [
+          8000,
+          5000
+        ],
+        "working_size": [
+          6195,
+          3872
+        ],
+        "scale_x": 0.774375,
+        "scale_y": 0.7744,
+        "downsampled": true,
+        "decoder_reduced": false,
+        "coordinate_space": "exif_oriented_source",
+        "preview_size": [
+          1200,
+          750
+        ]
+      },
+      "output_bytes": 25464,
+      "jpeg_quality": 95,
+      "wall_seconds": 2.646645095999702,
+      "source_preserved": true,
+      "manual_crop_used": false,
+      "engine_peak_sampled_rss_bytes": 431841280,
+      "same_rectangle_full_resolution_comparison": {
+        "mean_absolute_rgb_error_0_255": 0.537546694278717,
+        "mse": 0.8287000060081482,
+        "psnr_db": 48.94683018875537,
+        "identical_decoded_pixels": false,
+        "reference_jpeg_quality": 95,
+        "comparison_quality": 95,
+        "meaning": "Numerical resampling difference; not human quality or crop accuracy"
+      },
+      "peak_sampled_rss_bytes_including_reference_comparison": 431841280,
+      "process_high_water_rss_bytes_including_reference_comparison": 431591424,
+      "case": "synthetic_40mp_png",
+      "fixture_provenance": "Public NASA astronaut image scaled solely for resource testing"
+    }
+  ]
+}

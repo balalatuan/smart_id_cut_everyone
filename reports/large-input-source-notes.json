@@ -1,0 +1,20 @@
+{
+  "public_input_1": {
+    "description": "Portrait of Astronaut Frank L. Culbertson",
+    "url": "https://images-assets.nasa.gov/image/s90-38573/s90-38573~orig.jpg",
+    "source_page": "https://images.nasa.gov/details/s90-38573",
+    "sha256": "5de95bf947f178cd9509646b759cb7f08c842a9c121238fda8f85ce8622bb35e",
+    "width": 4607,
+    "height": 5759,
+    "usage_policy": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+  },
+  "public_input_2": {
+    "description": "File:Jill Biden official portrait.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Jill_Biden_official_portrait.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Jill_Biden_official_portrait.jpg",
+    "sha256": "57031cd0c726fd293e48967d58933b4e82bce57434755dafc8ffc2f4a92ceb2c",
+    "width": 3744,
+    "height": 5616,
+    "license": "Public domain (per Wikimedia Commons source record)"
+  }
+}

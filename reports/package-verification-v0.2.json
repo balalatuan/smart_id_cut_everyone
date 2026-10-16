@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "extracted_source_import_verified": true,
+  "extracted_29mp_cli": "passed",
+  "15kb_limit_verified": true,
+  "bytes": 4603,
+  "original_preserved": true,
+  "pytest": "46 passed, 2 Gradio deprecation warnings; 7.86 seconds",
+  "dependencies": "Uses already installed dependencies; ZIP does not bundle Python/wheels",
+  "colab_execution": "Upgrade code syntax checked; not run in user Colab session"
+}

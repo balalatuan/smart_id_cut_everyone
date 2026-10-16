@@ -1,0 +1,26 @@
+backend: local
+mode: standard
+width: 295
+height: 413
+dpi: 300
+max_kb: 50
+kb_bytes: 1024
+quality_floor: 65
+# PNG/native JPEG decode can exceed the working budget briefly; not an RSS ceiling.
+max_pixels: 40000000
+max_working_pixels: 24000000
+max_input_bytes: 33554432
+detector_max_side: 1200
+output_dir: output
+# Declared future settings are kept separate; Phase 1 uses ONE image and ONE CPU worker.
+future:
+  runtime_profile: AUTO
+  logical_batch_size: 50
+  max_job_size: 1000
+  workers: 1
+  queue_capacity: 2
+  cpu_inference_batch_size: 1
+  gpu_inference_batch_size: AUTO
+  memory_pause_percent: 80
+  memory_resume_percent: 70
+  cloud_enabled: false

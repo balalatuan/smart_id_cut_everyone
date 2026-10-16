@@ -1,0 +1,7 @@
+{
+  "zip_extract_and_cli": "passed",
+  "status": "REVIEW",
+  "bytes": 49540,
+  "notebook_code_cells": "syntax checked only; Colab not executed",
+  "dependencies": "Uses installed venv; ZIP does not include Python or dependency wheels"
+}

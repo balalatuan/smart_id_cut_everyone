@@ -1,0 +1,7 @@
+# Phase 1 runtime; Python 3.10–3.12 recommended. See reports/environment.json for tested versions.
+Pillow>=10,<13
+numpy>=1.26,<3
+opencv-python-headless>=4.10,<5
+PyYAML>=6,<7
+psutil>=6,<8
+gradio>=5.20,<6
